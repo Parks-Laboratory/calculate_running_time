@@ -3,3 +3,4 @@ this file needs R to be installed in compter and set up path (enviromental path)
 (1) put log_summary.sh, stats_time.sh and log files in one folder
 (2) ./stats_time.sh
 (3) get total running time txt
+(4) python3 plot.py to get plot of the time for each log file
