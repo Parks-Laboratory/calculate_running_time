@@ -1,0 +1,5 @@
+this file will run to calculate total running time based on log files
+
+(1) put log_summary.sh, stats_time.sh and log files in one folder
+(2) ./stats_time.sh
+(3) get total running time txt
