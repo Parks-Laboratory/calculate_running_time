@@ -1,0 +1,52 @@
+000 (8554005.000.000) 2019-08-08 02:33:20 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&alias=submit-1.chtc.wisc.edu&noUDP&sock=schedd_2058300_2d2a_3>
+    DAG Node: 37611
+...
+040 (8554005.000.000) 2019-08-08 07:19:40 Started transferring input files
+	Transferring to host: <10.0.2.15:45777?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30225_9d0e#247021&PrivNet=MAX-M504-03-S8-its-c7-osg-20190309&addrs=10.0.2.15-45777&noUDP>
+...
+040 (8554005.000.000) 2019-08-08 07:54:55 Finished transferring input files
+...
+001 (8554005.000.000) 2019-08-08 07:54:57 Job executing on host: <10.0.2.15:42010?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30222_65ee#242080&addrs=10.0.2.15-42010&noUDP>
+...
+006 (8554005.000.000) 2019-08-08 07:55:06 Image size of job updated: 178808
+	24  -  MemoryUsage of job (MB)
+	24004  -  ResidentSetSize of job (KB)
+...
+006 (8554005.000.000) 2019-08-08 08:20:07 Image size of job updated: 2783556
+	466  -  MemoryUsage of job (MB)
+	476824  -  ResidentSetSize of job (KB)
+...
+022 (8554005.000.000) 2019-08-08 08:33:08 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to glidein_3458_403392990@MAX-M504-03-S8-its-c7-osg-20190309 <10.0.2.15:42010?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30222_65ee#242080&addrs=10.0.2.15-42010&noUDP>
+...
+024 (8554005.000.000) 2019-08-08 09:13:08 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to glidein_3458_403392990@MAX-M504-03-S8-its-c7-osg-20190309, rescheduling job
+...
+040 (8554005.000.000) 2019-08-08 09:13:23 Started transferring input files
+	Transferring to host: <10.0.2.15:34465?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30286_a89f#244017&PrivNet=ITS-CIO-RAK-S1-its-c7-osg-20190309&addrs=10.0.2.15-34465&noUDP>
+...
+040 (8554005.000.000) 2019-08-08 09:49:08 Finished transferring input files
+...
+001 (8554005.000.000) 2019-08-08 09:49:09 Job executing on host: <10.0.2.15:39088?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30293_d3ea#241450&addrs=10.0.2.15-39088&noUDP>
+...
+040 (8554005.000.000) 2019-08-08 10:31:41 Started transferring output files
+...
+040 (8554005.000.000) 2019-08-08 10:31:41 Finished transferring output files
+...
+005 (8554005.000.000) 2019-08-08 10:31:41 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:40:25, Sys 0 00:00:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:40:25, Sys 0 00:00:22  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1975  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	1975  -  Total Bytes Sent By Job
+	2490  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            : 57904     1048576  35676604 
+	   Memory (MB)          :   489        1024      2500 
+...

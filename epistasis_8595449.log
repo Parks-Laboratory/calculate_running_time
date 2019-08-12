@@ -1,0 +1,146 @@
+000 (8595449.000.000) 2019-08-09 09:42:23 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&alias=submit-1.chtc.wisc.edu&noUDP&sock=schedd_2058300_2d2a_3>
+    DAG Node: 56447
+...
+040 (8595449.000.000) 2019-08-09 12:07:04 Started transferring input files
+	Transferring to host: <131.225.167.204:40573?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30294_90f5#248120&PrivNet=glow-52796-0-fnpc8201.fnal.gov&addrs=131.225.167.204-40573&noUDP>
+...
+040 (8595449.000.000) 2019-08-09 13:54:07 Finished transferring input files
+...
+004 (8595449.000.000) 2019-08-09 13:54:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   138425  1048576  10726940 
+	   Memory (MB)          :              1024      1024 
+...
+012 (8595449.000.000) 2019-08-09 13:54:21 Job was held.
+	via condor_hold (by user zli769)
+	Code 1 Subcode 0
+...
+013 (8595449.000.000) 2019-08-09 14:04:30 Job was released.
+	The job attribute PeriodicRelease expression '(JobRunCount < 10) && (time() - EnteredCurrentStatus > 60 * 10)' evaluated to TRUE
+...
+040 (8595449.000.000) 2019-08-09 14:31:32 Started transferring input files
+	Transferring to host: <128.104.100.87:9618?addrs=128.104.100.87-9618+[2607-f388-107c-501-62eb-69ff-fe10-30d5]-9618&alias=e0015.chtc.wisc.edu&noUDP&sock=starter_30668_2158_8211>
+...
+040 (8595449.000.000) 2019-08-09 14:31:40 Finished transferring input files
+...
+001 (8595449.000.000) 2019-08-09 14:31:41 Job executing on host: <128.104.100.87:9618?addrs=128.104.100.87-9618+[2607-f388-107c-501-62eb-69ff-fe10-30d5]-9618&alias=e0015.chtc.wisc.edu&noUDP&sock=startd_5822_fc79_3>
+...
+006 (8595449.000.000) 2019-08-09 14:31:50 Image size of job updated: 1024
+	1  -  MemoryUsage of job (MB)
+	612  -  ResidentSetSize of job (KB)
+...
+006 (8595449.000.000) 2019-08-09 14:32:15 Image size of job updated: 1048304
+	1024  -  MemoryUsage of job (MB)
+	1048304  -  ResidentSetSize of job (KB)
+...
+007 (8595449.000.000) 2019-08-09 14:32:15 Shadow exception!
+	Error from slot1_6@e0015.chtc.wisc.edu: Job has gone over memory limit of 1024 megabytes. Peak usage: 1024 megabytes.
+	0  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+...
+012 (8595449.000.000) 2019-08-09 14:32:15 Job was held.
+	Error from slot1_6@e0015.chtc.wisc.edu: Job has gone over memory limit of 1024 megabytes. Peak usage: 1024 megabytes.
+	Code 34 Subcode 0
+...
+013 (8595449.000.000) 2019-08-09 14:42:27 Job was released.
+	The job attribute PeriodicRelease expression '(JobRunCount < 10) && (time() - EnteredCurrentStatus > 60 * 10)' evaluated to TRUE
+...
+040 (8595449.000.000) 2019-08-09 14:47:26 Entered queue to transfer input files
+	Transferring to host: <131.225.166.195:32821?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30219_2ecd#252918&PrivNet=glow-52858-0-fnpc17119.fnal.gov&addrs=131.225.166.195-32821&noUDP>
+...
+040 (8595449.000.000) 2019-08-09 14:47:29 Started transferring input files
+	Seconds spent in queue: 3
+...
+040 (8595449.000.000) 2019-08-09 15:11:07 Finished transferring input files
+...
+022 (8595449.000.000) 2019-08-09 15:11:11 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_8@glidein_1_94912200@glow-52858-0-fnpc17119.fnal.gov <131.225.166.195:39812?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30293_d3ea#250480&addrs=131.225.166.195-39812&noUDP>
+...
+024 (8595449.000.000) 2019-08-09 15:51:11 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to slot1_8@glidein_1_94912200@glow-52858-0-fnpc17119.fnal.gov, rescheduling job
+...
+040 (8595449.000.000) 2019-08-09 16:07:08 Entered queue to transfer input files
+	Transferring to host: <10.3.129.29:39121?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30219_2ecd#253181&PrivNet=wsu29&addrs=10.3.129.29-39121&noUDP>
+...
+040 (8595449.000.000) 2019-08-09 16:07:13 Started transferring input files
+	Seconds spent in queue: 5
+...
+040 (8595449.000.000) 2019-08-09 16:18:36 Finished transferring input files
+...
+001 (8595449.000.000) 2019-08-09 16:18:37 Job executing on host: <10.3.129.29:35093?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30219_2ecd#253139&addrs=10.3.129.29-35093&noUDP>
+...
+040 (8595449.000.000) 2019-08-09 16:21:33 Started transferring output files
+	Seconds spent in queue: 865
+...
+040 (8595449.000.000) 2019-08-09 16:21:33 Finished transferring output files
+...
+004 (8595449.000.000) 2019-08-09 16:21:33 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:04, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	3264  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	(1) Normal termination (return value 1)
+	The job attribute OnExitRemove expression 'NumJobCompletions > JobMaxRetries || ExitCode == 0' evaluated to FALSE
+...
+040 (8595449.000.000) 2019-08-09 16:42:28 Started transferring input files
+	Seconds spent in queue: 2120
+...
+022 (8595449.000.000) 2019-08-09 17:01:12 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to glidein_3436_368855322@MAX-JSBURDIC-S8-its-c7-osg-20190309 <10.0.2.15:41144?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30281_f769#264301&addrs=10.0.2.15-41144&noUDP>
+...
+040 (8595449.000.000) 2019-08-09 17:01:32 Finished transferring input files
+...
+024 (8595449.000.000) 2019-08-09 17:41:12 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (2400 seconds) expired
+    Can not reconnect to glidein_3436_368855322@MAX-JSBURDIC-S8-its-c7-osg-20190309, rescheduling job
+...
+007 (8595449.000.000) 2019-08-09 17:41:52 Shadow exception!
+	Error from glidein_128562_850614876@CRUSH-OSG-C7-10-5-151-179: Failed to transfer files
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (8595449.000.000) 2019-08-09 17:41:53 Started transferring input files
+	Seconds spent in queue: 5685
+...
+040 (8595449.000.000) 2019-08-09 17:53:13 Finished transferring input files
+...
+001 (8595449.000.000) 2019-08-09 17:53:15 Job executing on host: <10.5.151.179:40196?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30227_1723#267149&addrs=10.5.151.179-40196&noUDP>
+...
+006 (8595449.000.000) 2019-08-09 17:58:26 Image size of job updated: 2818128
+	1221  -  MemoryUsage of job (MB)
+	1250000  -  ResidentSetSize of job (KB)
+...
+006 (8595449.000.000) 2019-08-09 18:33:30 Image size of job updated: 2869604
+	2394  -  MemoryUsage of job (MB)
+	2450648  -  ResidentSetSize of job (KB)
+...
+040 (8595449.000.000) 2019-08-09 18:44:46 Started transferring output files
+	Seconds spent in queue: 9458
+...
+040 (8595449.000.000) 2019-08-09 18:44:46 Finished transferring output files
+...
+005 (8595449.000.000) 2019-08-09 18:44:46 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:39:59, Sys 0 00:01:54  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:39:59, Sys 0 00:01:54  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	11406  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	14670  -  Total Bytes Sent By Job
+	7470  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.98        1         1 
+	   Disk (KB)            : 57914     1048576 152795596 
+	   Memory (MB)          :  2394        1024      2500 
+...

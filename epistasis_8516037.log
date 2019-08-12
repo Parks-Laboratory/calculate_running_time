@@ -1,0 +1,67 @@
+000 (8516037.000.000) 08/07 01:27:16 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&alias=submit-1.chtc.wisc.edu&noUDP&sock=schedd_6862_56f7_3>
+    DAG Node: 18806
+...
+040 (8516037.000.000) 08/07 02:43:38 Started transferring input files
+	Transferring to host: <10.0.2.15:39612?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30222_65ee#234676&PrivNet=BFAS-SDM-TLK-02-S3-its-c7-osg-20190309&addrs=10.0.2.15-39612&noUDP>
+...
+040 (8516037.000.000) 08/07 03:34:31 Finished transferring input files
+...
+001 (8516037.000.000) 08/07 03:34:33 Job executing on host: <10.0.2.15:45545?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30297_c815#249886&addrs=10.0.2.15-45545&noUDP>
+...
+006 (8516037.000.000) 08/07 03:34:41 Image size of job updated: 167144
+	23  -  MemoryUsage of job (MB)
+	23344  -  ResidentSetSize of job (KB)
+...
+006 (8516037.000.000) 08/07 03:37:15 Image size of job updated: 2783568
+	23  -  MemoryUsage of job (MB)
+	23344  -  ResidentSetSize of job (KB)
+...
+040 (8516037.000.000) 08/07 03:37:52 Entered queue to transfer output files
+...
+040 (8516037.000.000) 08/07 03:38:52 Started transferring output files
+...
+040 (8516037.000.000) 08/07 03:38:52 Finished transferring output files
+...
+004 (8516037.000.000) 08/07 03:38:59 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:09, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	1789  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	(1) Normal termination (return value 137)
+	The job attribute OnExitRemove expression 'NumJobCompletions > JobMaxRetries || ExitCode == 0' evaluated to FALSE
+...
+040 (8516037.000.000) 08/07 03:39:27 Entered queue to transfer input files
+	Transferring to host: <10.0.2.15:41312?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30222_65ee#234919&PrivNet=MAX-CH215B-03-D-S11-its-c7-osg-20190309&addrs=10.0.2.15-41312&noUDP>
+...
+040 (8516037.000.000) 08/07 03:39:39 Started transferring input files
+	Seconds spent in queue: 12
+...
+040 (8516037.000.000) 08/07 04:32:53 Finished transferring input files
+...
+001 (8516037.000.000) 08/07 04:32:54 Job executing on host: <10.0.2.15:37322?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30225_9d0e#236054&addrs=10.0.2.15-37322&noUDP>
+...
+006 (8516037.000.000) 08/07 04:38:24 Image size of job updated: 3000000
+	740  -  MemoryUsage of job (MB)
+	757076  -  ResidentSetSize of job (KB)
+...
+040 (8516037.000.000) 08/07 05:16:12 Started transferring output files
+	Seconds spent in queue: 5805
+...
+040 (8516037.000.000) 08/07 05:16:12 Finished transferring output files
+...
+005 (8516037.000.000) 08/07 05:16:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:29:43, Sys 0 00:00:37  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:29:43, Sys 0 00:00:37  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1975  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	3764  -  Total Bytes Sent By Job
+	2490  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     1.00        1         1 
+	   Disk (KB)            : 57904     1048576  36150980 
+	   Memory (MB)          :   740        1024      2500 
+...

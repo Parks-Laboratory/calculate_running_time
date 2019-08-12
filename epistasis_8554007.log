@@ -1,0 +1,107 @@
+000 (8554007.000.000) 2019-08-08 02:33:22 Job submitted from host: <128.105.244.191:9618?addrs=128.105.244.191-9618&alias=submit-1.chtc.wisc.edu&noUDP&sock=schedd_2058300_2d2a_3>
+    DAG Node: 37613
+...
+040 (8554007.000.000) 2019-08-08 07:40:02 Started transferring input files
+	Transferring to host: <144.92.142.176:9618?addrs=144.92.142.176-9618&noUDP&sock=12610_a2ba_12878>
+...
+040 (8554007.000.000) 2019-08-08 08:14:21 Finished transferring input files
+...
+001 (8554007.000.000) 2019-08-08 08:14:22 Job executing on host: <144.92.142.176:9618?addrs=144.92.142.176-9618&noUDP&sock=16900_92a2_15>
+...
+006 (8554007.000.000) 2019-08-08 08:14:31 Image size of job updated: 932
+	1  -  MemoryUsage of job (MB)
+	932  -  ResidentSetSize of job (KB)
+...
+040 (8554007.000.000) 2019-08-08 08:14:36 Started transferring output files
+...
+040 (8554007.000.000) 2019-08-08 08:14:36 Finished transferring output files
+...
+004 (8554007.000.000) 2019-08-08 08:14:36 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:08, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	3188  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	(1) Normal termination (return value 1)
+	The job attribute OnExitRemove expression 'NumJobCompletions > JobMaxRetries || ExitCode == 0' evaluated to FALSE
+...
+007 (8554007.000.000) 2019-08-08 08:15:25 Shadow exception!
+	Error from glidein_129547_116667000@CRUSH-OSG-C7-10-5-154-253: Failed to transfer files
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+007 (8554007.000.000) 2019-08-08 08:15:26 Shadow exception!
+	Error from glidein_129547_116667000@CRUSH-OSG-C7-10-5-154-253: Failed to transfer files
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+040 (8554007.000.000) 2019-08-08 08:15:28 Started transferring input files
+	Transferring to host: <10.5.154.253:41659?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30283_717e#240486&PrivNet=CRUSH-OSG-C7-10-5-154-253&addrs=10.5.154.253-41659&noUDP>
+...
+040 (8554007.000.000) 2019-08-08 08:52:43 Finished transferring input files
+...
+001 (8554007.000.000) 2019-08-08 08:52:44 Job executing on host: <10.5.154.253:42193?CCBID=128.104.100.30:9618%3faddrs%3d128.104.100.30-9618+[2607-f388-107c-501-216-3eff-fe1c-f0ac]-9618%26noUDP%26sock%3d30216_f7ad#254185&addrs=10.5.154.253-42193&noUDP>
+...
+006 (8554007.000.000) 2019-08-08 08:52:53 Image size of job updated: 179132
+	24  -  MemoryUsage of job (MB)
+	23600  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 08:57:54 Image size of job updated: 2818136
+	164  -  MemoryUsage of job (MB)
+	167456  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:02:55 Image size of job updated: 2818136
+	174  -  MemoryUsage of job (MB)
+	177504  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:17:57 Image size of job updated: 2818136
+	179  -  MemoryUsage of job (MB)
+	183296  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:32:59 Image size of job updated: 2818136
+	185  -  MemoryUsage of job (MB)
+	188688  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:38:00 Image size of job updated: 2818136
+	186  -  MemoryUsage of job (MB)
+	190284  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:43:00 Image size of job updated: 2818136
+	188  -  MemoryUsage of job (MB)
+	192320  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:53:01 Image size of job updated: 2818136
+	192  -  MemoryUsage of job (MB)
+	195808  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 09:58:01 Image size of job updated: 2818136
+	194  -  MemoryUsage of job (MB)
+	197712  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 10:03:02 Image size of job updated: 2818136
+	195  -  MemoryUsage of job (MB)
+	199348  -  ResidentSetSize of job (KB)
+...
+006 (8554007.000.000) 2019-08-08 10:13:03 Image size of job updated: 2818136
+	198  -  MemoryUsage of job (MB)
+	202736  -  ResidentSetSize of job (KB)
+...
+040 (8554007.000.000) 2019-08-08 10:36:04 Started transferring output files
+...
+040 (8554007.000.000) 2019-08-08 10:36:04 Finished transferring output files
+...
+005 (8554007.000.000) 2019-08-08 10:36:05 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:11:12, Sys 0 00:03:18  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:11:12, Sys 0 00:03:18  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1975  -  Run Bytes Sent By Job
+	1245  -  Run Bytes Received By Job
+	5163  -  Total Bytes Sent By Job
+	2490  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.74        1         1 
+	   Disk (KB)            : 57904     1048576 160068336 
+	   Memory (MB)          :   198        1024      2500 
+...
