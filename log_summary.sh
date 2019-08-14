@@ -84,7 +84,8 @@ summary(scan(args[1], quiet=TRUE)/as.numeric(args[2]))
 grep 'Disk (KB)' "$1" > lines
 echo "Disk Usage (MB):"
 awk '{print $4}' lines > col
-Rscript summarize.R col 1000
+Rscript summarize.R col 1000 ls -al | awk 'NR==2' >> runEachJobMemory.txt
+
 echo
 echo "Disk Allocation (MB):"
 awk '{print $6}' lines > col
@@ -93,9 +94,12 @@ Rscript summarize.R col 1000
 printds \\n===============================================
 
 grep 'Memory (MB)' "$1" > lines
+
 echo "Memory Usage (MB):"
 awk '{print $4}' lines > col
+
 Rscript summarize.R col 1
+
 echo
 echo "Memory Allocation (MB):"
 awk '{print $6}' lines > col
