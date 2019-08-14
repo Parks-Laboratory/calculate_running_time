@@ -4,3 +4,5 @@ this file needs R to be installed in compter and set up path (enviromental path)
 (2) ./stats_time.sh
 (3) get total running time txt
 (4) python3 plot.py to get plot of the time for each log file
+
+Running the stats_time will return  total running time (in minutes) and total running memory (in MB).
