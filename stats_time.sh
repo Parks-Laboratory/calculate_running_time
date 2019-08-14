@@ -6,8 +6,7 @@ done
 
 awk '{print$1}' runEachJobTime.txt >> 0_jobsInMins.txt
 
-awk '{print$1}' runEachJobMemory.txt >> 0_jobsInMemoryMB.txt
-
 awk '{s+=$1}END{print s}' 0_jobsInMins.txt > 0_totalTimeInMins.txt
 
-awk '{s+=$1}END{print s}' 0_jobsInMemoryMB.txt > 0_totalTimeInMemory.txt
+rm 0_jobsInMins.txt
+
